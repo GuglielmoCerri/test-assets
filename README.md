@@ -34,9 +34,9 @@ To use these assets in tests, you can either:
 
 ### Example Raw URLs
 
-- **Excel File**: `https://github.com/GuglielmoCerri/test-assets/blob/main/documents/sample_small.xlsx`
-- **MSG File**: `https://github.com/GuglielmoCerri/test-assets/blob/main/documents/sample.msg`
-- **PNG File**: `https://github.com/GuglielmoCerri/test-assets/blob/main/images/sample.png`
+- **Excel File**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/documents/sample_small.xlsx`
+- **MSG File**: `"https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/documents/sample.msg"`
+- **PNG File**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/images/sample.png`
 
 ## Contributing
 
