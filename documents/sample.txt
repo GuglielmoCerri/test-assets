@@ -1,0 +1,22 @@
+This is a sample text file.
+
+User Information:
+Name: John Doe
+Email: john.doe@example.com
+Date of Birth: 1990-05-14
+
+Order Details:
+Order ID: ORD-12345-XYZ
+Date: 2024-03-21
+Amount: €149.99
+
+Address:
+123 Main Street
+Springfield, IL 62704
+USA
+
+Notes:
+- The quick brown fox jumps over the lazy dog.
+- Special characters: !@#$%^&*()_+-=[]{}|;:',.<>/?
+
+End of Document.
