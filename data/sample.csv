@@ -1,0 +1,9 @@
+id,name,department,salary,start_date,active
+1,Alice Martin,Engineering,82000,2019-03-15,true
+2,Bob Chen,Marketing,64000,2020-07-01,true
+3,Carol White,Engineering,91000,2018-11-22,true
+4,David Kim,HR,57000,2021-01-10,false
+5,Eva Rossi,Engineering,78000,2022-05-30,true
+6,Frank Lopez,Marketing,61500,2020-09-14,true
+7,Grace Müller,Finance,73000,2019-06-03,false
+8,Henry Tanaka,HR,55000,2023-02-28,true

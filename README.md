@@ -22,8 +22,17 @@ Using these local assets instead of relying on external URLs makes our tests fas
 
 ## Repository Structure
 
-- `/documents`: Contains document files like `.xlsx`, `.msg`, `.pdf`, etc.
-- `/images`: Contains image files like `.jpg`, `.png`, etc.
+| Folder | File types |
+|---|---|
+| `/archives` | `.zip` |
+| `/code` | `.bat`, `.c`, `.cpp`, `.css`, `.java`, `.js`, `.py`, `.sh` |
+| `/config` | `.cfg`, `.conf`, `.ini` |
+| `/data` | `.csv`, `.json`, `.parquet`, `.xml`, `.yaml`, `.yml` |
+| `/documents` | `.doc`, `.docx`, `.eml`, `.htm`, `.html`, `.md`, `.msg`, `.pdf`, `.txt` |
+| `/images` | `.gif`, `.jpg`, `.png`, `.svg`, `.tiff`, `.webp` |
+| `/logs` | `.log` |
+| `/presentations` | `.ppt`, `.pptx` |
+| `/spreadsheets` | `.xls`, `.xlsx` |
 
 ## How to Use
 
@@ -34,9 +43,38 @@ To use these assets in tests, you can either:
 
 ### Example Raw URLs
 
-- **Excel File**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/documents/sample_small.xlsx`
-- **MSG File**: `"https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/documents/sample.msg"`
-- **PNG File**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/images/sample.png`
+- **ZIP**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/archives/sample.zip`
+- **Batch**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/code/sample.bat`
+- **C**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/code/sample.c`
+- **C++**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/code/sample.cpp`
+- **CSS**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/code/sample.css`
+- **Java**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/code/sample.java`
+- **JavaScript**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/code/sample.js`
+- **Python**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/code/sample.py`
+- **Shell**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/code/sample.sh`
+- **CFG**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/config/sample.cfg`
+- **CONF**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/config/sample.conf`
+- **INI**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/config/sample.ini`
+- **CSV**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/data/sample.csv`
+- **JSON**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/data/sample.json`
+- **Parquet**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/data/sample.parquet`
+- **XML**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/data/sample.xml`
+- **YAML**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/data/sample.yaml`
+- **YML**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/data/sample.yml`
+- **DOCX**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/documents/sample.docx`
+- **HTM**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/documents/sample.htm`
+- **HTML**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/documents/sample.html`
+- **MSG**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/documents/sample.msg`
+- **PDF**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/documents/sample_3_pages.pdf`
+- **GIF**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/images/sample.gif`
+- **JPG**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/images/sample.jpg`
+- **PNG**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/images/sample.png`
+- **SVG**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/images/sample.svg`
+- **TIFF**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/images/sample.tiff`
+- **WEBP**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/images/sample.webp`
+- **LOG**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/logs/sample.log`
+- **PPTX**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/presentations/sample.pptx`
+- **XLSX**: `https://raw.githubusercontent.com/GuglielmoCerri/test-assets/main/spreadsheets/sample_small.xlsx`
 
 ## Contributing
 
@@ -63,6 +101,6 @@ To ensure the quality and integrity of the repository, all contributed assets mu
 - **No Sensitive Data:** Files must not contain any personally identifiable information (PII), confidential data, or copyrighted material. All content should be synthetic or properly anonymized.
 - **Keep File Sizes Small:** Assets should be as small as possible to keep the repository lightweight. The goal is to test structure and parsing, not to handle large volumes.
 - **Use Descriptive Filenames:** Name files clearly and descriptively (e.g., `invoice_with_tables.xlsx` is preferred over `test1.xlsx`).
-- **Place Files in the Correct Directory:** Add new files to the appropriate subdirectory (`/documents`, `/images`, etc.).
+- **Place Files in the Correct Directory:** Add new files to the appropriate subdirectory (`/archives`, `/code`, `/config`, `/data`, `/documents`, `/images`, `/logs`, `/presentations`, `/spreadsheets`).
 
 Thank you for your interest in contributing to this project.

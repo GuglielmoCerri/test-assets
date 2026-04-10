@@ -1,0 +1,34 @@
+{
+  "company": {
+    "name": "Acme Corp",
+    "founded": 2001,
+    "active": true,
+    "address": {
+      "street": "123 Main St",
+      "city": "Springfield",
+      "country": "US",
+      "zip": "12345"
+    },
+    "departments": [
+      {
+        "id": "eng",
+        "name": "Engineering",
+        "headcount": 42,
+        "budget": 3200000
+      },
+      {
+        "id": "mkt",
+        "name": "Marketing",
+        "headcount": 18,
+        "budget": 950000
+      },
+      {
+        "id": "fin",
+        "name": "Finance",
+        "headcount": 12,
+        "budget": 720000
+      }
+    ],
+    "tags": ["technology", "software", "b2b"]
+  }
+}

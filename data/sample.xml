@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <book id="bk001">
+    <title>Introduction to Algorithms</title>
+    <author>Thomas H. Cormen</author>
+    <genre>Computer Science</genre>
+    <price currency="USD">59.99</price>
+    <publish_date>2009-07-31</publish_date>
+    <description>A comprehensive introduction to algorithms and data structures.</description>
+  </book>
+  <book id="bk002">
+    <title>Clean Code</title>
+    <author>Robert C. Martin</author>
+    <genre>Software Engineering</genre>
+    <price currency="USD">34.99</price>
+    <publish_date>2008-08-01</publish_date>
+    <description>A handbook of agile software craftsmanship.</description>
+  </book>
+  <book id="bk003">
+    <title>Design Patterns</title>
+    <author>Erich Gamma</author>
+    <genre>Software Engineering</genre>
+    <price currency="USD">44.99</price>
+    <publish_date>1994-10-31</publish_date>
+    <description>Elements of reusable object-oriented software.</description>
+  </book>
+</catalog>

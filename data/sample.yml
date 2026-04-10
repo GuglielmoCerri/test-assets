@@ -1,0 +1,40 @@
+pipeline:
+  name: data-ingestion
+  version: "2.1.0"
+  schedule: "0 6 * * *"
+
+source:
+  type: s3
+  bucket: my-data-bucket
+  prefix: incoming/
+  region: eu-west-1
+  format: csv
+  delimiter: ","
+  has_header: true
+
+transforms:
+  - type: filter
+    condition: "status == 'active'"
+  - type: rename
+    mappings:
+      emp_id: id
+      emp_name: name
+  - type: cast
+    column: salary
+    to: float
+
+destination:
+  type: postgres
+  host: db.internal
+  port: 5432
+  database: warehouse
+  table: employees
+  mode: upsert
+  key_columns:
+    - id
+
+notifications:
+  on_failure:
+    - email: ops@example.com
+    - slack: "#alerts"
+  on_success: []

@@ -1,0 +1,29 @@
+app:
+  name: sample-service
+  version: "1.4.2"
+  environment: staging
+
+server:
+  host: 0.0.0.0
+  port: 8080
+  timeout_seconds: 30
+  debug: false
+
+database:
+  host: db.internal
+  port: 5432
+  name: sample_db
+  pool_size: 10
+  ssl: true
+
+logging:
+  level: INFO
+  format: json
+  outputs:
+    - stdout
+    - /var/log/sample-service.log
+
+features:
+  feature_a: true
+  feature_b: false
+  max_retries: 3
